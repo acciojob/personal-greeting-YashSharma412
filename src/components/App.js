@@ -9,7 +9,7 @@ const App = () => {
     if(myname === ""){
       setName("")
     } else {
-      setName("Hello"+myname +"!");
+      setName("Hello "+myname +"!");
     }
   }
   return (
