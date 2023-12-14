@@ -9,13 +9,13 @@ const App = () => {
     if(myname === ""){
       setName("")
     } else {
-      setName("Hello " + myname);
+      setName("Hello"+myname +"!");
     }
   }
   return (
     <div>
         {/* Do not remove the main div */}
-        <p>Enter your name:</p>
+        {/* <p>Enter your name:</p> */}
         <input type="text" onChange={handleName}></input>
         <p>{name}</p>
     </div>
